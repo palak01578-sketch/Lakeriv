@@ -2,107 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lakeriv | The Trust-First Social Media for Creators</title>
-    <meta name="description" content="Lakeriv is a trust-first social platform built for privacy, safety, and meaningful digital conversations. Designed for creators to get fair reach without algorithmic bias.">
-    <meta name="keywords" content="Lakeriv, social media for creators, fair reach, privacy first, safe social networking, Indian startup app, trust-based social media">
+    <title>Lakeriv | Official App Launching Soon</title>
+    
+    <meta name="description" content="Lakeriv: A trust-first social platform. Website is live for early access! Official App launching on 23 February 2026. Join the waitlist now.">
+    <meta name="keywords" content="Lakeriv app, social media launch, trust-based social media, fair reach creators, privacy social network">
+    <meta name="author" content="Lakeriv Team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: white;
-            text-align: center;
+        :root { 
+            --primary: #3b82f6; 
+            --bg: #0f172a; 
+            --card: #1e293b; 
+            --text: #f8fafc; 
+            --accent: #38bdf8;
         }
-        .container {
-            padding: 60px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        .logo-placeholder {
-            font-size: 32px;
-            font-weight: bold;
-            color: #38bdf8;
-            margin-bottom: 20px;
-            letter-spacing: 2px;
-        }
-        h1 { font-size: 48px; margin-bottom: 10px; color: #f8fafc; }
-        .tagline { font-size: 20px; color: #94a3b8; margin-bottom: 40px; }
         
-        .card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 16px;
-            text-align: left;
-            margin-bottom: 30px;
+        body { 
+            margin: 0; 
+            font-family: 'Inter', sans-serif; 
+            background: var(--bg); 
+            color: var(--text); 
+            text-align: center; 
+            line-height: 1.6;
         }
-        h2 { color: #38bdf8; font-size: 24px; margin-top: 0; }
-        p { font-size: 17px; line-height: 1.7; color: #cbd5e1; }
-        
-        .btn {
-            margin-top: 20px;
-            padding: 15px 40px;
-            background-color: #2563eb;
+
+        .container { padding: 80px 20px; max-width: 850px; margin: auto; }
+
+        .live-now {
+            background: #10b981;
             color: white;
-            text-decoration: none;
-            border-radius: 8px;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 12px;
             font-weight: bold;
             display: inline-block;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h1 { 
+            font-size: clamp(3rem, 8vw, 4.5rem); 
+            margin-bottom: 10px; 
+            font-weight: 800;
+            background: linear-gradient(to right, var(--accent), var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline { font-size: 1.25rem; color: #94a3b8; margin-bottom: 50px; }
+        
+        .card { 
+            background: var(--card); 
+            padding: 30px; 
+            border-radius: 20px; 
+            border: 1px solid rgba(255,255,255,0.05); 
+            text-align: left; 
+            margin-bottom: 25px;
+        }
+
+        .card h2 { color: var(--accent); margin-top: 0; font-size: 1.5rem; }
+        
+        .btn { 
+            margin-top: 30px; 
+            padding: 20px 60px; 
+            background: var(--primary); 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 15px; 
+            font-size: 1.2rem; 
+            font-weight: bold; 
+            display: inline-block; 
             transition: 0.3s;
         }
-        .btn:hover { background-color: #1d4ed8; transform: translateY(-2px); }
 
-        .launch-badge {
-            background: #1e293b;
-            border: 1px solid #38bdf8;
-            color: #38bdf8;
-            padding: 10px 20px;
-            border-radius: 50px;
-            display: inline-block;
-            font-weight: bold;
-            margin-top: 40px;
+        .btn:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(59, 130, 246, 0.5); }
+
+        .launch-timer { 
+            margin-top: 50px; 
+            padding: 25px; 
+            background: rgba(255,255,255,0.03);
+            border-radius: 20px;
+            border: 1px solid var(--accent);
         }
-        .footer { margin-top: 60px; padding: 30px; font-size: 14px; opacity: 0.6; }
+
+        .launch-timer h3 { margin: 0; color: var(--accent); font-size: 1.8rem; }
+
+        .footer { 
+            margin-top: 80px; 
+            padding: 30px; 
+            font-size: 14px; 
+            color: #64748b;
+            border-top: 1px solid rgba(255,255,255,0.1); 
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="logo-placeholder">LAKERIV</div>
-    <h1>Real Connections. <br>Fair Reach.</h1>
-    <p class="tagline">The social platform built on trust, not just clicks.</p>
+    <div class="live-now">● Website is Live</div>
+    <h1>Lakeriv</h1>
+    <p class="tagline">The "Trust-First" social platform. Built to give creators fair reach and users total privacy.</p>
 
     <div class="card">
-        <h2>What is Lakeriv?</h2>
-        <p>Current social media feels like a lottery. Creators struggle against unpredictable algorithms, while users trade their privacy for engagement. <strong>Lakeriv is different.</strong></p>
-        <p>We are building a "trust-first" ecosystem where <strong>Fair Reach</strong> is the standard. Whether you're a creator looking for an honest audience or a user seeking a safe space for conversation, Lakeriv ensures your digital life is respectful, secure, and meaningful.</p>
+        <h2>Why Join Early?</h2>
+        <p>Lakeriv is not just another app; it's a movement. We've designed it so your content isn't suppressed by unpredictable algorithms. Join the waitlist today to be the first to experience the app on February 23rd.</p>
     </div>
 
-    <div class="card">
-        <h2>What to expect?</h2>
-        <ul style="list-style: none; padding: 0; color: #cbd5e1;">
-            <li style="margin-bottom: 12px;">🛡️ <strong>Privacy-First:</strong> No invasive tracking. Your data stays yours.</li>
-            <li style="margin-bottom: 12px;">📈 <strong>Creator Equity:</strong> Reach your followers without paying a "boost" tax.</li>
-            <li style="margin-bottom: 12px;">🤝 <strong>Accountability:</strong> A unique trust-based system to keep interactions respectful.</li>
-        </ul>
-    </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwGx2M9rDNVpRRqCsTAWI1Bl024CuGQfoObg3PumxFLn9dA/viewform?usp=sf_link" target="_blank" class="btn">Register for Early Access</a>
 
-    <a href="#" class="btn">Get Early Access Invite</a>
-
-    <br>
-    <div class="launch-badge">
-        🚀 Launching 23 February 2026
+    <div class="launch-timer">
+        <p style="margin-bottom: 5px; font-weight: bold; opacity: 0.8;">OFFICIAL APP LAUNCHING ON</p>
+        <h3>23 February 2026</h3>
     </div>
 </div>
 
 <div class="footer">
     © 2026 Lakeriv. All rights reserved. <br>
-    Designed for the next generation of digital creators.
+    Support: <strong>Hellolakeriv@gmail.com</strong>
 </div>
 
 </body>
 </html>
-
-     
