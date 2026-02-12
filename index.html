@@ -1,126 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Lakeriv | Official App Launching Soon</title>
-    
-    <meta name="description" content="Lakeriv: A trust-first social platform. Website is live for early access! Official App launching on 23 February 2026. Join the waitlist now.">
-    <meta name="keywords" content="Lakeriv app, social media launch, trust-based social media, fair reach creators, privacy social network">
-    <meta name="author" content="Lakeriv Team">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lakeriv – Fair Social Platform for Creators | No Algorithm Suppression</title>
 
-    <style>
-        :root { 
-            --primary: #3b82f6; 
-            --bg: #0f172a; 
-            --card: #1e293b; 
-            --text: #f8fafc; 
-            --accent: #38bdf8;
-        }
-        
-        body { 
-            margin: 0; 
-            font-family: 'Inter', sans-serif; 
-            background: var(--bg); 
-            color: var(--text); 
-            text-align: center; 
-            line-height: 1.6;
-        }
+<meta name="description" content="Lakeriv is a trust-first social media platform built for creators. No shadow bans. No algorithm suppression. Fair reach, privacy-first experience. Join early access today.">
+<meta name="keywords" content="Lakeriv, creator platform, social media alternative, fair reach app, privacy social network">
+<meta name="robots" content="index, follow">
 
-        .container { padding: 80px 20px; max-width: 850px; margin: auto; }
+<meta property="og:title" content="Lakeriv – A Fair Social Platform for Creators">
+<meta property="og:description" content="No shadow bans. No fake reach. Just transparency and equal visibility for creators.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lakeriv.com/">
+<meta property="og:image" content="https://lakeriv.com/preview.jpg">
 
-        .live-now {
-            background: #10b981;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 50px;
-            font-size: 12px;
-            font-weight: bold;
-            display: inline-block;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lakeriv – Fair Social Platform">
+<meta name="twitter:description" content="Built for creators. Transparent reach. Privacy-first.">
+<meta name="twitter:image" content="https://lakeriv.com/preview.jpg">
 
-        h1 { 
-            font-size: clamp(3rem, 8vw, 4.5rem); 
-            margin-bottom: 10px; 
-            font-weight: 800;
-            background: linear-gradient(to right, var(--accent), var(--primary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+<link rel="icon" type="image/png" href="favicon.png">
 
-        .tagline { font-size: 1.25rem; color: #94a3b8; margin-bottom: 50px; }
-        
-        .card { 
-            background: var(--card); 
-            padding: 30px; 
-            border-radius: 20px; 
-            border: 1px solid rgba(255,255,255,0.05); 
-            text-align: left; 
-            margin-bottom: 25px;
-        }
-
-        .card h2 { color: var(--accent); margin-top: 0; font-size: 1.5rem; }
-        
-        .btn { 
-            margin-top: 30px; 
-            padding: 20px 60px; 
-            background: var(--primary); 
-            color: white; 
-            text-decoration: none; 
-            border-radius: 15px; 
-            font-size: 1.2rem; 
-            font-weight: bold; 
-            display: inline-block; 
-            transition: 0.3s;
-        }
-
-        .btn:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(59, 130, 246, 0.5); }
-
-        .launch-timer { 
-            margin-top: 50px; 
-            padding: 25px; 
-            background: rgba(255,255,255,0.03);
-            border-radius: 20px;
-            border: 1px solid var(--accent);
-        }
-
-        .launch-timer h3 { margin: 0; color: var(--accent); font-size: 1.8rem; }
-
-        .footer { 
-            margin-top: 80px; 
-            padding: 30px; 
-            font-size: 14px; 
-            color: #64748b;
-            border-top: 1px solid rgba(255,255,255,0.1); 
-        }
-    </style>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+body{background:#0f172a;color:white;scroll-behavior:smooth;}
+nav{
+position:fixed;top:0;width:100%;
+background:rgba(15,23,42,0.95);
+padding:15px 40px;
+display:flex;justify-content:space-between;
+align-items:center;z-index:1000;
+}
+nav h2{color:#3b82f6;}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px;}
+.hero{
+height:100vh;
+display:flex;flex-direction:column;
+justify-content:center;align-items:center;
+text-align:center;padding:20px;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+.hero h1{font-size:48px;max-width:800px;}
+.hero p{max-width:700px;margin:20px auto;color:#cbd5e1;}
+.btn{
+padding:15px 35px;font-size:18px;
+background:#3b82f6;color:white;
+border:none;border-radius:8px;
+cursor:pointer;margin-top:20px;
+transition:0.3s;
+}
+.btn:hover{background:#2563eb;transform:scale(1.05);}
+.section{padding:100px 20px;text-align:center;}
+.section h2{font-size:34px;margin-bottom:20px;}
+.section p{max-width:750px;margin:10px auto;color:#cbd5e1;}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:40px;}
+.card{
+background:#1e293b;padding:25px;border-radius:10px;
+transition:0.3s;
+}
+.card:hover{transform:translateY(-5px);}
+footer{
+background:#1e293b;padding:30px;text-align:center;
+color:#94a3b8;font-size:14px;
+}
+</style>
 </head>
+
 <body>
 
-<div class="container">
-    <div class="live-now">● Website is Live</div>
-    <h1>Lakeriv</h1>
-    <p class="tagline">The "Trust-First" social platform. Built to give creators fair reach and users total privacy.</p>
+<nav>
+<h2>Lakeriv</h2>
+<div>
+<a href="#about">About</a>
+<a href="#features">Features</a>
+<a href="#creators">Creators</a>
+<a href="#faq">FAQ</a>
+</div>
+</nav>
 
-    <div class="card">
-        <h2>Why Join Early?</h2>
-        <p>Lakeriv is not just another app; it's a movement. We've designed it so your content isn't suppressed by unpredictable algorithms. Join the waitlist today to be the first to experience the app on February 23rd.</p>
-    </div>
-
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwGx2M9rDNVpRRqCsTAWI1Bl024CuGQfoObg3PumxFLn9dA/viewform?usp=sf_link" target="_blank" class="btn">Register for Early Access</a>
-
-    <div class="launch-timer">
-        <p style="margin-bottom: 5px; font-weight: bold; opacity: 0.8;">OFFICIAL APP LAUNCHING ON</p>
-        <h3>23 February 2026</h3>
-    </div>
+<div class="hero">
+<h1>Finally, A Social Platform That Treats Creators Fairly</h1>
+<p>No shadow bans. No algorithm manipulation. Just transparent reach and privacy-first interaction.</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSefwGx2M9rDNVpRRqCsTAWI1Bl024CuGQfoObg3PumxFLn9dA/viewform" target="_blank">
+<button class="btn">Join Early Access</button>
+</a>
 </div>
 
-<div class="footer">
-    © 2026 Lakeriv. All rights reserved. <br>
-    Support: <strong>Hellolakeriv@gmail.com</strong>
+<div class="section" id="about">
+<h2>What is Lakeriv?</h2>
+<p>Lakeriv is a trust-first social platform built for creators who are tired of unpredictable algorithms and unfair reach systems. We focus on transparency, privacy, and equal visibility.</p>
 </div>
+
+<div class="section" id="features">
+<h2>Why Lakeriv?</h2>
+<div class="features">
+<div class="card">
+<h3>Fair Reach</h3>
+<p>No hidden suppression. Every creator gets equal opportunity.</p>
+</div>
+<div class="card">
+<h3>Privacy First</h3>
+<p>Designed to protect user interactions and data transparency.</p>
+</div>
+<div class="card">
+<h3>Transparent Growth</h3>
+<p>Clear system for visibility and engagement tracking.</p>
+</div>
+<div class="card">
+<h3>Founding Advantage</h3>
+<p>Early users gain recognition and visibility benefits.</p>
+</div>
+</div>
+</div>
+
+<div class="section" id="creators">
+<h2>Built for the Next Generation of Creators</h2>
+<p>Lakeriv empowers creators with a clean, fair, and growth-focused environment. Join early and shape the future of social media.</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSefwGx2M9rDNVpRRqCsTAWI1Bl024CuGQfoObg3PumxFLn9dA/viewform" target="_blank">
+<button class="btn">Become a Founding Creator</button>
+</a>
+</div>
+
+<div class="section" id="faq">
+<h2>Frequently Asked Questions</h2>
+<p><strong>Is Lakeriv live?</strong><br>Currently onboarding early access users before full public rollout.</p>
+<p><strong>Is it free?</strong><br>Yes. Early users get priority access benefits.</p>
+<p><strong>Who should join?</strong><br>Creators and individuals seeking transparent reach and privacy-first interaction.</p>
+</div>
+
+<footer>
+© 2026 Lakeriv. All Rights Reserved.
+</footer>
 
 </body>
 </html>
